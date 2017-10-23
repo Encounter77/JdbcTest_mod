@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost_3306
-Source Server Version : 50621
+Source Server         : mysql
+Source Server Version : 50540
 Source Host           : localhost:3306
 Source Database       : book
 
 Target Server Type    : MYSQL
-Target Server Version : 50621
+Target Server Version : 50540
 File Encoding         : 65001
 
-Date: 2017-09-18 05:51:16
+Date: 2017-10-19 20:09:02
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -30,7 +30,7 @@ CREATE TABLE `bookta` (
 -- ----------------------------
 -- Records of bookta
 -- ----------------------------
-INSERT INTO `bookta` VALUES ('9101748', '法布尔昆虫记', '童书', '99');
-INSERT INTO `bookta` VALUES ('9203153', '青蛙弗洛格的成长故事', '童书', '57.6');
-INSERT INTO `bookta` VALUES ('9787214068828', '一问一世界', '传记', '32');
-INSERT INTO `bookta` VALUES ('9787505142169', '繁华落尽，素心不改', '传记', '36');
+INSERT INTO `bookta` VALUES ('002', '史记', '传记', '85');
+INSERT INTO `bookta` VALUES ('004', '钢铁是怎样炼成的', '小说', '76');
+INSERT INTO `bookta` VALUES ('007', '爱的教育', '小说', '28');
+INSERT INTO `bookta` VALUES ('120', '海底两万里', '小说', '50');
